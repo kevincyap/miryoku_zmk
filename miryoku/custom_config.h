@@ -1,6 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-#define MIRYOKU_CLIPBOARD_FUN
+#define MIRYOKU_CLIPBOARD_WIN
 #define KEVIN_BASE_QWERTY
 #define KEVIN_EXTRA_DVORAK
 #define KEVIN_TAP_GAME
@@ -12,6 +12,7 @@
 
 #define CONFIG_ZMK_BLE_THREAD_PRIORITY 5
 #define KEVIN_COMBOS
+#define U_TAPPING_X_TERM 250
 
 //To define workflows add this. But otherwise rely on the workflow
 //#define MIRYOKU_KLUDGE_MOUSEKEYSPR
