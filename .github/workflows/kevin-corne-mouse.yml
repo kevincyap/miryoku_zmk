@@ -1,0 +1,14 @@
+# https://github.com/manna-harbour/miryoku
+
+name: 'Kevins Corne'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano"]'
+      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      branches: '["zmkfirmware/zmk/main"]'
