@@ -1,6 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-#define MIRYOKU_CLIPBOARD_FUN
+#define MIRYOKU_CLIPBOARD_WIN
 #define KEVIN_BASE_QWERTY
 #define KEVIN_EXTRA_DVORAK
 #define KEVIN_TAP_GAME
