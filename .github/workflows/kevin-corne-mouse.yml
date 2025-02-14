@@ -1,4 +1,3 @@
-# Copyright 2024 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
 name: 'Kevins Corne'
@@ -10,6 +9,6 @@ jobs:
     with:
       board: '["nice_nano"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y", "CONFIG_ZMK_DISPLAY=y"]'
-      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      branches: '["zmkfirmware/zmk/main"]'
