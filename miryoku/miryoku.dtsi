@@ -57,3 +57,7 @@ MIRYOKU_LAYER_LIST
 #else
   #include "miryoku_behaviors.dtsi"
 #endif
+
+#if defined (KEVIN_COMBOS)
+  #include "kevin_combos.dtsi"
+#endif
