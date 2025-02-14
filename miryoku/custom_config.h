@@ -12,6 +12,7 @@
 
 #define CONFIG_ZMK_BLE_THREAD_PRIORITY 5
 #define KEVIN_COMBOS
+#define U_TAPPING_X_TERM 250
 
 //To define workflows add this. But otherwise rely on the workflow
 //#define MIRYOKU_KLUDGE_MOUSEKEYSPR
