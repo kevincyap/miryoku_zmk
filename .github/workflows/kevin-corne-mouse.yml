@@ -1,6 +1,6 @@
 # https://github.com/manna-harbour/miryoku
 
-name: 'Kevins Corne'
+name: 'Kevins Corne Mouse'
 on: workflow_dispatch
 jobs:
   build:
