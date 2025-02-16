@@ -19,13 +19,13 @@
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
       tapping-term-ms = <150>;
-      bindings = <U_LT(U_NUM, ESC)>, <U_LT(U_NAV, ESC)>, <U_LT(U_MEDIA, ESC)>;
+      bindings = <&u_lt U_NUM, ESC>, <&u_lt U_NAV, ESC>, <&u_lt U_MEDIA, ESC>;
     };
     tdms: td_mouse_to_sym {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
       tapping-term-ms = <150>;
-      bindings = <U_LT(U_MOUSE, TAB)>, <U_LT(U_SYM, TAB)>, <U_LT(U_FUN, TAB)>;
+      bindings = <&u_lt U_MOUSE, TAB>, <&u_lt U_SYM, TAB>, <&u_lt U_FUN, TAB>;
     };
   };
 };
