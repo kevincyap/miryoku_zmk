@@ -3,7 +3,6 @@
 #define MIRYOKU_CLIPBOARD_WIN
 #define KEVIN_BASE_QWERTY
 #define KEVIN_EXTRA_DVORAK
-#define KEVIN_TAP_GAME
 #define KEVIN_NAV
 #define KEVIN_NUM
 #define KEVIN_SYM

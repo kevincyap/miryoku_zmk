@@ -25,6 +25,11 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 &kp LSHFT,         &kp Z,             &kp X,             &kp C,             U_MT_X(B, V),        &kp N,             &kp M,             &kp COMMA,         &kp DOT,           U_LT(U_BUTTON, SLASH),         \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPACE,         U_LT(U_NUM, TAB),    U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
+#define KEVIN_MAP_GAME_6 \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,               &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,                \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,               &kp H,            &kp J,    &kp K,    &kp L,     &kp SQT,    \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,               &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              &tdnm,             &kp SPACE,         &tdms,               U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define KEVIN_MAP_NUM \
 &kp PRCNT,         &kp N7,            &kp N8,            &kp N9,            &kp AT,              &u_to_U_BASE,      &kp LBKT,          &kp RBKT,          &kp ASTRK,         U_BOOT,            \
