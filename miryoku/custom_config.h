@@ -9,7 +9,6 @@
 #define KEVIN_MOUSE
 #define KEVIN_BUTTON
 
-#define ARTSEY_BASE_LAYER 2
 #define KEVIN_ARTSEY_COMBOS
 #define KEVIN_TAP_ARTSEY
 

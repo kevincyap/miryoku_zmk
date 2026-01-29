@@ -35,10 +35,17 @@ combo_artsey_ ## LAYER ## _ ## POSITION { \
     #define KEVIN_ARTSEY_K L0 L2
     #define KEVIN_ARTSEY_L L1 L2 L3
 #endif
+#define ARTSEY_BASE_LAYER 2
 
 / {
   combos {
     compatible = "zmk,combos";
+    combo_artsey_test { \
+        layers = 2; \
+        key-positions = <L0, L3>; \
+        bindings = <&kp K>; \
+        timeout-ms = 50; \
+    };
 #if defined (KEVIN_ARTSEY_COMBOS)
     KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, M, &kp M)
     KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, N, &kp N)
