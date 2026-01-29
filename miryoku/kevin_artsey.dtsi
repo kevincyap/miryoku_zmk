@@ -1,0 +1,72 @@
+#define U0 1
+#define U1 2
+#define U2 3
+#define U3 4
+
+#define L0 5
+#define L1 12
+#define L2 13
+#define L3 14
+
+#define KEVIN_ARTSEY_COMBO(LAYER, POSITION, BINDING) \
+combo_artsey_ ## LAYER ## _ ## POSITION { \
+  layers = <LAYER>; \
+  key-positions = <KEVIN_ARTSEY_ ## POSITION>; \
+  bindings = <BINDING>;
+  timeout-ms = 50;\
+};
+#if defined (KEVIN_ARTSEY_COMBOS)
+    #define KEVIN_ARTSEY_M L0 L1 L2
+    #define KEVIN_ARTSEY_N L0 L2
+    #define KEVIN_ARTSEY_P L0 L1 L3
+    #define KEVIN_ARTSEY_Q U0 U1 U3
+    #define KEVIN_ARTSEY_U L1 L2
+    #define KEVIN_ARTSEY_V U0 U2
+    #define KEVIN_ARTSEY_W U0 U3
+    #define KEVIN_ARTSEY_X U0 U1 U2
+    #define KEVIN_ARTSEY_Z U0 U1 U2 U3
+    #define KEVIN_ARTSEY_B L0 L3
+    #define KEVIN_ARTSEY_C L2 L3
+    #define KEVIN_ARTSEY_D U1 U2 U3
+    #define KEVIN_ARTSEY_F U2 U3
+    #define KEVIN_ARTSEY_G U1 U2
+    #define KEVIN_ARTSEY_H L1 L3
+    #define KEVIN_ARTSEY_J U0 U1
+    #define KEVIN_ARTSEY_K L0 L2
+    #define KEVIN_ARTSEY_L L1 L2 L3
+#endif
+
+/ {
+  combos {
+    compatible = "zmk,combos";
+#if defined (KEVIN_ARTSEY_COMBOS)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, M, &kp M)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, N, &kp N)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, P, &kp P)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, Q, &kp Q)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, U, &kp U)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, V, &kp V)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, W, &kp W)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, X, &kp X)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, Z, &kp Z)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, B, &kp B)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, C, &kp C)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, D, &kp D)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, F, &kp F)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, G, &kp G)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, H, &kp H)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, J, &kp J)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, K, &kp K)
+    KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, L, &kp L)
+#endif
+  };
+};
+
+#undef U0
+#undef U1
+#undef U2
+#undef U3
+#undef L0
+#undef L1
+#undef L2
+#undef L3
