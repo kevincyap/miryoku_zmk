@@ -40,11 +40,11 @@ combo_artsey_ ## LAYER ## _ ## POSITION { \
 / {
   combos {
     compatible = "zmk,combos";
-    combo_artsey_test { \
-        layers = 2; \
-        key-positions = <L0, L3>; \
-        bindings = <&kp K>; \
-        timeout-ms = 50; \
+    combo_artsey_test {
+        layers = 2;
+        key-positions = <L0 L3>;
+        bindings = <&kp K>;
+        timeout-ms = 50;
     };
 #if defined (KEVIN_ARTSEY_COMBOS)
     KEVIN_ARTSEY_COMBO(ARTSEY_BASE_LAYER, M, &kp M)
