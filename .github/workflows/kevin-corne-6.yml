@@ -8,7 +8,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano"]'
-      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
+      shield: '["nice_view_adapter nice_view corne_left","nice_view_adapter nice_view corne_right"]'
       custom_config: '["#define KEVIN_TAP_GAME_6"]'
       kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_DISPLAY=y"]'
       branches: '["zmkfirmware/zmk/main"]'
