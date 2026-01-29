@@ -57,3 +57,7 @@ MIRYOKU_LAYER_LIST
 #if defined (KEVIN_COMBOS)
   #include "kevin_combos.dtsi"
 #endif
+
+#if defined (KEVIN_ARTSEY_COMBOS)
+  #include "kevin_artsey.dtsi"
+#endif
