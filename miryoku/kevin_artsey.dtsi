@@ -12,7 +12,7 @@
 combo_artsey_ ## LAYER ## _ ## POSITION { \
   layers = <LAYER>; \
   key-positions = <KEVIN_ARTSEY_ ## POSITION>; \
-  bindings = <BINDING>;
+  bindings = <BINDING>; \
   timeout-ms = 50; \
 };
 #if defined (KEVIN_ARTSEY_COMBOS)
