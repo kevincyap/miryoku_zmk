@@ -41,7 +41,7 @@ combo_artsey_ ## LAYER ## _ ## POSITION { \
   combos {
     compatible = "zmk,combos";
     combo_artsey_test {
-        layers = 2;
+        layers = <2>;
         key-positions = <L0 L3>;
         bindings = <&kp K>;
         timeout-ms = 50;
