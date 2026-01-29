@@ -167,7 +167,7 @@
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_QWERTZ
     #elif defined (KEVIN_TAP_GAME_6)
       #define MIRYOKU_LAYER_TAP KEVIN_MAP_GAME_6
-    #elif dfined (KEVIN_TAP_ARTSEY)
+    #elif defined (KEVIN_TAP_ARTSEY)
       #define MIRYOKU_LAYER_TAP KEVIN_MAP_ARTSEY
     #else
       #define MIRYOKU_LAYER_TAP KEVIN_MAP_GAME
