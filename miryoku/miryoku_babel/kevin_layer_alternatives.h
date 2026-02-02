@@ -68,7 +68,7 @@ U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,                &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 #define KEVIN_MAP_ARTSEY \
-&kp S,             &kp T,             &kp R,             &kp A,             U_NA,                 U_NA,                 &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,                \
-&kp O,             &kp I,             &kp Y,             &kp E,             U_NA,                 U_NA,                 U_NA,             U_NA,             U_NA,             U_NA,                \
-U_NA,             U_NA,               U_NA,              U_NA,              &u_to_U_BASE,         U_NA,                 U_NA,             U_NA,             U_NA,             U_NA,                \
-U_NP,             U_NP,               U_LT(U_SYM, BSPC),  U_LT(U_NAV, SPACE),U_LT(U_MOUSE, RET),   U_NA,    U_NA,             U_NA,  U_NP,              U_NP
+U_NA,             U_NA,               U_NA,              U_NA,             U_NA,                 U_NA,                 &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,                \
+&kp S,             &kp T,             &kp R,             &kp A,             U_NA,                 U_NA,                 U_NA,             U_NA,             U_NA,             U_NA,                \
+&kp O,             &kp I,             &kp Y,             &kp E,              &u_to_U_BASE,         U_NA,                 U_NA,             U_NA,             U_NA,             U_NA,                \
+U_NP,             U_NP,               U_LT(U_SYM, BSPC),  U_LT(U_NAV, SPACE),U_LT(U_MOUSE, RET),   &kp BSPC,    U_NA,             U_NA,  U_NP,              U_NP
